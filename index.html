@@ -4,18 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jokes API</title>
-        <link rel="stylesheet" href="/assets/style.css">
-        <link rel="stylesheet" href="/assets/fonts.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/fonts.css">
     </head>
     <body>
         <div class="container">
             <h1 class="title">Jokes on Demand</h1>
             <button id="fetchJoke" class="btn">Get a Joke</button>
             <div id="jokeContainer" class="joke-container">
-            <p id="joke" class="joke"></p>
+                <h2 id="type" class="joke"></h2>
+                <p id="setup" class="joke"></p>
+                <p id="joke" class="joke"></p>
             </div>
         </div>
 
-        <script src="/assets/js/showJokes.js"></script>
+        <script type="text/javascript" src="/assets/js/showJokes.js"></script>
     </body>
 </html>
