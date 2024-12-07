@@ -4,7 +4,7 @@
 export const fetchJokes = async (jokeType) => {
     try {
         // The API URL
-        const url = 'https://v2.jokeapi.dev/joke/'+jokeType;
+        const url = 'https://v2.jokeapi.dev/joke/Any';
         
         const response = await fetch(url);
         
